@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Q01",
+      "setup": " sudo -H pip3 install automata-lib parameterized",
+      "run": "python -m unittest -v test/test_Q01.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q02",
+      "setup": "sudo -H pip3 install automata-lib parameterized",
+      "run": "python -m unittest -v test/test_Q02.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q03",
+      "setup": "sudo -H pip3 install automata-lib parameterized",
+      "run": " python -m unittest -v test/test_Q03.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q04",
+      "setup": "sudo -H pip3 install automata-lib parameterized",
+      "run": " python -m unittest -v test/test_Q04.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Q05",
+      "setup": "sudo -H pip3 install automata-lib parameterized",
+      "run": " python -m unittest -v test/test_Q05.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
